@@ -1,0 +1,150 @@
+.modal-main{
+    /* background-color: rgba(0,0,0,0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modal-header{
+    background-color: #34A853;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+  
+}
+
+.modal-header p{
+    color: #fff;
+    font-size: 20px;
+}
+.modal{
+    background-color: #fff;
+
+    
+}
+
+
+
+.modal-body{
+    padding: 15px;
+    border: 1px solid #c4c0c0;;
+}
+
+.modal label{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.title-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.title-input .input-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+.title-input .input-item input,
+.title-input .input-item textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+}
+.input-item textarea{
+    height: 100px;
+}
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.furthur-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.furthur-input .input-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+select:focus{
+    outline: none;
+}
+select{
+    padding: 10px;
+}
+input[type='date']{
+    padding: 10px;
+}
+.incase{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.incase p{
+    font-size: 20px;
+    
+}
+
+.incase-inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 10px;
+}
+.incase-inputs .input-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.incase-inputs .input-item input{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+} 
+
+input,textarea{
+    border: 1px solid rgb(170, 169, 169);
+}
+
+.remarks .input-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.remarks{
+    margin-top: 10px;
+}
+
+.submit-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.submit-inputs input{
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+input[type='reset']{
+    /* padding-top: 0px;
+    padding-bottom: 0px;
+    height: 20px; */
+    margin-top: 17px;
+    font-size: 15px;
+}
